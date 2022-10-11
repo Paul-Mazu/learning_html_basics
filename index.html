@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="author" content="Pawel Mazurkiewicz">
     <meta name="description" content="This is a learning page for html">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Page</title>
-
     <link rel="icon" href="html5 icon.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
@@ -27,10 +27,30 @@
         <a href="link1.html"><button>Another link</button></a>
     </div>
     <div>
-        <a href="https://www.google.com/">
-            <button class="btn btn-primary btn-lg">Click to go to Google</button>
-        </a>
+
+        <button class="btn btn-primary btn-lg" onclick="window.open('http://google.com','_blank')">Click to go to
+            Google in awesome new <b><u>TAB</u></b></button>
+
     </div>
+
+    <form>
+        <label for="text_field">Write text:</label>
+        <input type="text" placeholder="write some text" name="" id="text_field">
+        <!--the id and name attributes will be used to recognise the input-->
+
+        <div>
+            Email adress:
+            <input type="email" placeholder="email" name="email">
+        </div>
+        <div>
+            Password:
+            <input type="password" placeholder="password" name="pass">
+        </div>
+        <div>
+            <input type="button" value="The awesome button">
+            that does nothing
+        </div>
+    </form>
 
     <img src="apple.jpg" alt="Apple">
     <img src="https://www.floraseta.de/thumbnail/0a/16/1a/1660664926/33392899_birne_mit_stiel_einzeln_1280x1280.jpg"
