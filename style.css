@@ -71,7 +71,13 @@ p {
 
 #p3 {
     background-color: lightgrey;
+    font-size: 30px;
+    text-align: center;
+    padding: 150px;
+}
 
+a {
+    color: darkgray;
 }
 
 footer {
@@ -81,4 +87,5 @@ footer {
     width: 100%;
     height: 275px;
     text-align: center;
+    padding-top: 175px;
 }
