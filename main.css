@@ -3,17 +3,22 @@ html {
 }
 
 h1 {
-    color: blue;
+    color: rgb(81, 255, 0);
     text-align: center;
 }
 
 h2 {
-    color: aqua;
+    color: rgb(81, 255, 0);
     text-align: center;
 }
 
 a {
     color: antiquewhite;
+}
+
+button {
+    color: #333;
+    background-color: #7fff00;
 }
 
 /*img {
