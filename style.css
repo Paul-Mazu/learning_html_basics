@@ -16,7 +16,6 @@ container1 {
 #me {
     width: 200px;
     height: auto;
-
 }
 
 h1 {
@@ -31,7 +30,6 @@ container2 {
     color: antiquewhite;
     margin: 50px 0;
     width: 100%;
-
 }
 
 p1 {
@@ -44,6 +42,7 @@ p1 {
 
 p2 {
     text-align: center;
+    width: 800px;
     font-size: 20px;
     margin-left: 30px;
 }
@@ -54,16 +53,39 @@ container3 {
     margin: auto;
     justify-items: center;
     justify-content: center;
+    color: antiquewhite;
 }
 
+resume {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+/* that is actually stupid, it should be connected vertically..., I'm lazy not changing it...*/
 #experience {
-    color: antiquewhite;
-    text-align: center;
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
     flex-grow: 1;
     font-size: 30px;
 }
 
-h2 {}
+#h21 {
+    padding-right: 250px;
+}
+
+#tables {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+#tab1 {
+    padding-right: 200px;
+    border-right: 2px solid antiquewhite;
+}
+
 
 ul {
     width: 20%;
@@ -71,6 +93,6 @@ ul {
 }
 
 #python_img {
-    width: 300px;
-    margin: 200px;
+    width: 400px;
+    margin: 100px;
 }
